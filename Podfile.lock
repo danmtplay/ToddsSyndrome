@@ -1,0 +1,38 @@
+PODS:
+  - Crashlytics (3.7.1):
+    - Fabric (~> 1.6.3)
+  - DLRadioButton (1.4.8)
+  - Fabric (1.6.7)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Spring (1.0.3)
+  - SwiftValidator (3.0.3)
+
+DEPENDENCIES:
+  - Crashlytics
+  - DLRadioButton (~> 1.4)
+  - Fabric
+  - FMDB
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+  - SwiftValidator
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Crashlytics: 3cdd4c9655be68032a0cf0379e0fb5ef6af22cad
+  DLRadioButton: 8fe4865b3ea8a5236e1d114dd283dd0884d3dc46
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftValidator: 0b6a48bf10364411b0d64c97f78665ff87ca9f8b
+
+COCOAPODS: 0.39.0
